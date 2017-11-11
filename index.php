@@ -42,8 +42,8 @@
 
     	<div class="sidebar-wrapper">
             <div class="logo">
-                <a href="#" class="simple-text">
-                    Code Samurai
+                <a href="dashboard.html" class="simple-text">
+                    iLivestockMgr
                 </a>
             </div>
 
