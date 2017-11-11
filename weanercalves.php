@@ -47,6 +47,7 @@
                 </a>
             </div>
 
+            
             <ul class="nav">
                 <li>
                     <a href="dashboard.html">
@@ -55,47 +56,18 @@
                     </a>
                 </li>
                 <li>
-                    <a href="user.html">
-                        <i class="ti-user"></i>
-                        <p>User Profile</p>
-                    </a>
-                </li>
-                <li class="active">
-                    <a href="table.html">
-                        <i class="ti-view-list-alt"></i>
-                        <p>Table List</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="typography.html">
-                        <i class="ti-text"></i>
-                        <p>Typography</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="icons.html">
+                    <a href="index.php">
                         <i class="ti-pencil-alt2"></i>
-                        <p>Icons</p>
+                        <p>Irrigated Forage</p>
                     </a>
                 </li>
                 <li>
-                    <a href="maps.html">
-                        <i class="ti-map"></i>
-                        <p>Maps</p>
+                    <a href="weanercalves.php">
+                        <i class="ti-view-list-alt"></i>
+                        <p>Zebu Weaners</p>
                     </a>
                 </li>
-                <li>
-                    <a href="notifications.html">
-                        <i class="ti-bell"></i>
-                        <p>Notifications</p>
-                    </a>
-                </li>
-				<li class="active-pro">
-                    <a href="upgrade.html">
-                        <i class="ti-export"></i>
-                        <p>Upgrade to PRO</p>
-                    </a>
-                </li>
+            
             </ul>
     	</div>
     </div>
@@ -110,7 +82,7 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Table List</a>
+                    <a class="navbar-brand" href="#">Zebu Weaners</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
