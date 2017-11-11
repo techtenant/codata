@@ -43,7 +43,7 @@
     	<div class="sidebar-wrapper">
             <div class="logo">
                 <a href="#" class="simple-text">
-                    iSamurai
+                    Code Samurai
                 </a>
             </div>
 
@@ -197,14 +197,14 @@
 
                         <li>
                             <a href="http://www.techtenant.co.ke">
-                                About iSamurai
+                                About Code Samurai
                             </a>
                         </li>
                         
                     </ul>
                 </nav>
                 <div class="copyright pull-right">
-                    &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="http://www.techtenant.co.ke">iSamurai</a>
+                    &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="http://www.techtenant.co.ke">Code Samurai</a>
                 </div>
             </div>
         </footer>
