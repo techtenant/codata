@@ -66,6 +66,12 @@
                         <p>Zebu Weaners</p>
                     </a>
                 </li>
+                <li>
+                    <a href="foodsecurity.php">
+                        <i class="ti-text"></i>
+                        <p>Food Security</p>
+                    </a>
+                </li>
             </ul>
     	</div>
     </div>

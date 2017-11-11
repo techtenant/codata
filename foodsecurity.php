@@ -88,7 +88,7 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Zebu Weaners</a>
+                    <a class="navbar-brand" href="#">Food Security</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -134,15 +134,15 @@
                     <div class="col-md-12">
                         <div class="card card-plain">
                             <div class="header">
-                                <h4 class="title">Effect of Supplementing Rhodes Grass Hay with Cotton Seedcake</h4>
-                                <p class="category">Growth Performance of the Small East African Zebu Weaners in South Eastern Kenya</p>
+                                <h4 class="title">Local Innovation</h4>
+                                <p class="category">For food security and livelihood</p>
                             </div>
                             <div class="content table-responsive table-full-width">
                                 <table class="table table-hover">
                                     <thead>
-                                        <th>Feed Diet</th>
-                                    	<th>Average Daily Gain</th>
-                                    	<th>Organic Matter Intake</th>
+                                        <th>Name</th>
+                                    	<th>Location</th>
+                                    	<th>Contact Person</th>
                                         
                                     	
                                     </thead>
@@ -152,7 +152,7 @@
                                             $curl = curl_init();
 
                                             curl_setopt_array($curl, array(
-                                              CURLOPT_URL => "https://atg-hackathon.mybluemix.net/api/weanercalves",
+                                              CURLOPT_URL => "https://atg-hackathon.mybluemix.net/api/broodsites",
                                               CURLOPT_RETURNTRANSFER => true,
                                               CURLOPT_ENCODING => "",
                                               CURLOPT_MAXREDIRS => 10,
@@ -161,7 +161,7 @@
                                               CURLOPT_CUSTOMREQUEST => "GET",
                                               CURLOPT_HTTPHEADER => array(
                                                 "cache-control: no-cache",
-                                                "postman-token: 2d7e8a8b-83d0-1253-53e0-ff822eeee77f"
+                                                "postman-token: b87f7977-d7cc-48a0-6972-379ffd1cfa66"
                                               ),
                                             ));
 
@@ -178,9 +178,10 @@
                                                   $farms = $data["data"];
                                                   foreach ($farms as $farm) {
                                                       echo '<tr>';
-                                                      echo '<td>' . $farm['feed_diet'] . '</td>';
-                                                      echo '<td>' . $farm['parameters']['average_daily_gain']. '</td>';
-                                                      echo '<td>' . $farm['parameters']['organic_matter_intake'] . '</td>';
+                                                      echo '<td>' . $farm['name'] . '</td>';
+                                                      echo '<td>' . $farm['location'] . '</td>';
+                                                      echo '<td>' . $farm['contact_person'] . '</td>';
+                                                                                                       
                                                       
                                                       echo '</tr>';
                                                 }
